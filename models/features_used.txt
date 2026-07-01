@@ -1,0 +1,1 @@
+area,dormitorios,banos,antiguedad
