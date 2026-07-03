@@ -1,10 +1,10 @@
-                    L I M A R E N T A
-    Predictive Analytics para el Mercado de Alquileres en Lima
-    ==========================================================
-    
-    Proyecto Integrador - Big Data
-    Universidad Católica Sede Sapientiae
-    Facultad de Ingeniería - Ingeniería de Sistemas
+**LIMA RENTA**
+Predictive Analytics para el Mercado de Alquileres en Lima
+===========================================================
+
+Proyecto Integrador - Big Data
+Universidad Católica Sede Sapientiae
+Facultad de Ingeniería - Ingeniería de Sistemas
 
 
 DESCRIPCION DEL PROYECTO
@@ -23,54 +23,6 @@ para:
 
   3. Visualizar el mercado de alquiler a traves de un dashboard
      interactivo (Power BI)
-
-
-ESTRUCTURA DEL PROYECTO
------------------------
-
-lima-rent-predictive/
-├── README.md                    # Este archivo
-├── data/
-│   └── dataset_clean.csv        # Dataset procesado y limpio
-├── notebooks/
-│   ├── 01_ETL_PySpark.ipynb     # ETL con PySpark
-│   └── 02_Modelo_ML.ipynb       # Modelo Random Forest
-├── models/
-│   ├── modelo_random_forest.pkl # Modelo entrenado
-│   └── features_used.txt        # Caracteristicas utilizadas
-├── dashboards/
-│   └── lima_rent_dashboard.pbix # Dashboard Power BI
-├── screenshots/
-│   ├── dashboard_final.png      # Captura del dashboard
-│   ├── modelo_resultados.png    # Resultados del modelo
-│   ├── feature_importance.png   # Importancia de variables
-│   ├── neo4j_database_info.png  # Vista general de Neo4j
-│   ├── neo4j_top_distritos.png  # Demanda por distrito
-│   ├── neo4j_top_publicadores.png # Top publicadores
-│   └── neo4j_precios_zona.png   # Precios por zona
-└── docs/
-    └── informe_ejecutivo.pdf    # Informe final (4 paginas)
-
-
-ARQUITECTURA TECNICA
---------------------
-
-  ┌─────────────────────────────────────────────────────────────┐
-  │                    Google Colab (PySpark)                   │
-  │  ┌─────────────┐   ┌──────────────┐   ┌──────────────┐      │
-  │  │  ETL        │──▶│  ML Model    │──▶│   Neo4j Graf │      │
-  │  │  Limpieza   │   │  RandomForest│   │   Centralidad│      │
-  │  └─────────────┘   └──────────────┘   └──────────────┘      │
-  └─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-  ┌─────────────────────────────────────────────────────────────┐
-  │                    Power BI Desktop                         │
-  │  ┌─────────────┐   ┌──────────────┐   ┌──────────────┐      │
-  │  │  Mapa x     │   │  KPIs de     │   │  Tabla Top   │      │
-  │  │  Distrito   │   │  Precios     │   │  10 Prop.    │      │
-  │  └─────────────┘   └──────────────┘   └──────────────┘      │
-  └─────────────────────────────────────────────────────────────┘
 
 
 HERRAMIENTAS UTILIZADAS
