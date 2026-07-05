@@ -101,12 +101,30 @@ ENTREGABLES
 
 
 ENLACES RAPIDOS
----------------
+ ---------------
 
-  Repositorio    : https://github.com/Soviet117/lima-rent-predictive
-  Dashboard      : dashboards/lima_rent_dashboard.pbix
-  Video Demo     : [Enlace a Loom]
-  Informe        : docs/informe_ejecutivo.pdf
+   Repositorio    : https://github.com/Soviet117/lima-rent-predictive
+   Dashboard      : dashboards/lima_rent_dashboard.pbix
+   Informe        : docs/informe_ejecutivo.pdf
+
+ VIDEOS EXPLICATIVOS
+ -------------------
+
+   1. Planteamiento del Problema
+      video1_problema.mp4
+      https://drive.google.com/file/d/1e92oOH9uBJo0ROSF09dgAz-XDm6I4U7I/view?usp=sharing
+
+   2. Arquitectura de la Solución
+      video2_arquitectura.mp4
+      https://drive.google.com/file/d/1KP4m0zHZS8FhqzUtIk9AkTE8wDQjTIAi/view?usp=sharing
+
+   3. Demo del Dashboard y Modelo
+      video3_demo.mp4
+      https://drive.google.com/file/d/1c7j-STLmNf6aFk9XMl6EmF7O6iNKwmCy/view?usp=sharing
+
+   4. Impacto y Conclusiones
+      video4_impacto.mp4
+      https://drive.google.com/file/d/1ZXtL1k2EULW5EFOlVXgZWtMedIReqkAt/view?usp=sharing
 
 
 EQUIPO
